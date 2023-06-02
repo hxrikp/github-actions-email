@@ -9,8 +9,7 @@ Subject: BLAH
 
 BLAH BLAH BALH
 """
-print(USERNAME,PASSWORD)
-# context = ssl.create_default_context()
-# with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
-#     server.login(USERNAME, PASSWORD)
-#     server.sendmail(USERNAME, USERNAME, message)
+context = ssl.create_default_context()
+with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
+    server.login(USERNAME, PASSWORD)
+    server.sendmail(USERNAME, USERNAME, message)
