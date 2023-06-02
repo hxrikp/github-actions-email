@@ -7,9 +7,9 @@ smtp_server = "smtp.gmail.com"
 USERNAME = os.environ.get('USER_EMAIL')
 PASSWORD = os.environ.get('USER_PASSWORD')
 message = """\
-Subject: GitHub Email Report
+Subject: hellloooo
 
-This is your daily email report.
+BLAH BLAH BLAH
 """
 
 context = ssl.create_default_context()
