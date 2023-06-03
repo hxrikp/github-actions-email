@@ -6,7 +6,7 @@ port = 465
 smtp_server = "smtp.gmail.com"
 USERNAME = os.environ.get('USER_EMAIL')
 PASSWORD = os.environ.get('USER_PASSWORD')
-reciever = "nandanadileep29@gmail.com"
+reciever = "anskjames2001@gmail.com"
 message = """\
 Subject: hellloooo
 
